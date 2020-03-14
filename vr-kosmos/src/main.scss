@@ -1,0 +1,47 @@
+/* Variables */
+$body-font: 'IBM Plex Sans',
+sans-serif;
+$heading-font: 'IBM Plex Sans Condensed',
+sans-serif;
+$base-font-size: 16px;
+$font-color: #fff;
+$gray: #eee;
+$accent: #9c2532;
+$tablet: 768px;
+$desktop: 1024px;
+$primaryColor: #553252;
+$secondaryColor: #ffab40;
+$backgroundColor: #000F24;
+
+
+#map-canvas {
+    height: 450px;
+}
+
+@media screen and (max-width: 991px) {
+    #map-canvas {
+        margin-left: 0;
+        margin-right: 0;
+    }
+}
+
+.wrapper #intro {
+    background-color: black;
+    // background: #101010 url(https://c.wallhere.com/photos/38/35/1440x900_px_Earth-538959.jpg!d) center center no-repeat fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    margin-top: 0;
+}
+
+.wrapper #intro .intro-text-wrapper {
+    left: 50%;
+    position: absolute;
+    top: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
